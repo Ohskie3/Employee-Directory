@@ -21,17 +21,24 @@ const App = () => {
         Header: 'phone',
         accessor: 'phone',
         filterable: true
+      },
+      {
+        Header: 'gender',
+        accessor: 'gender',
+        filterable: true
       }
     ]
   })
 
   useEffect(() => {
-    axios.get('https://randomuser.me/api?results=100')
+    axios.get('https://randomuser.me/api?results=50')
     .then(({ data: { results } }) => {
+      console.log(results)
       const users = results.map(user => ({
         name: `${user.name.first} ${user.name.last}`,
         email: user.email,
-        phone: user.phone
+        phone: user.phone,
+        gender: user.gender
       }))
       setUserState({ ...userState, users })
       })
