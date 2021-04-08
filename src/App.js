@@ -26,7 +26,7 @@ const App = () => {
   })
 
   useEffect(() => {
-    axios.get('https://randomuser.me/api?results=50')
+    axios.get('https://randomuser.me/api?results=100')
     .then(({ data: { results } }) => {
       const users = results.map(user => ({
         name: `${user.name.first} ${user.name.last}`,
