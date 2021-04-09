@@ -4,6 +4,7 @@ This is an employee directory for information about your employees. When you loa
 
 
 
+https://ohskie3.github.io/Employee-Directory/
 
 
 <img src="./public/ScreenShot.png" alt="screenshot of Employee-Directory App">
