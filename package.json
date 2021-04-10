@@ -2,7 +2,7 @@
   "name": "week10-day03",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http:/Ohskie3.github.io/Employee-Directory",
+  "homepage": "http://Ohskie3.github.io/Employee-Directory",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
